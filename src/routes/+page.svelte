@@ -83,4 +83,12 @@
     background: lavender;
     height: 70px;
   }
+  .box:hover {
+    transform: scale(1.1);
+    transition: 0.25s;
+  }
+  .wave:hover {
+    transform: scale(1.1, 1.5);
+    transition: 0.5s;
+  }
 </style>
